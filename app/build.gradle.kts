@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.freelanceror.appmensagegood"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.freelanceror.appmensagegood"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -55,6 +55,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.room.common)
     implementation(libs.androidx.room.ktx)
+    implementation(libs.firebase.vertexai)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
