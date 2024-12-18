@@ -1,5 +1,6 @@
 package com.freelanceror.appmensagegood
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -30,10 +31,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
+
+
         binding.btnShowMessage.setOnClickListener {
             // Selecionar mensagem aleatória
             val randomMessage = messages[Random.nextInt(messages.size)]
             binding.tvMessage.text = randomMessage
         }
     }
+
+
+
 }

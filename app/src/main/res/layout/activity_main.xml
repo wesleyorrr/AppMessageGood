@@ -16,6 +16,8 @@
         android:layout_height="wrap_content"
         android:text="Clique aqui para nova mensagem" />
 
+
+
     <TextView
         android:id="@+id/tvMessage"
         android:layout_width="wrap_content"
